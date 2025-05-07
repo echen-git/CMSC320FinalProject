@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>8491aff2410a4880924ea27b0671456e</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>pip install yfinance</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>pip install forex<span class="op">-</span>python</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>pip install matplotlib</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>pip install scikit<span class="op">-</span>learn</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>pip install alpha_vantage</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>pip install requests</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>pip install currencyapicom</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>pip install seaborn</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>pip install scipy</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Requirement already satisfied: yfinance in /Users/echen/miniconda3/lib/python3.11/site-packages (0.2.59)
+Requirement already satisfied: pandas&gt;=1.3.0 in /Users/echen/miniconda3/lib/python3.11/site-packages (from yfinance) (2.2.3)
+Requirement already satisfied: numpy&gt;=1.16.5 in /Users/echen/miniconda3/lib/python3.11/site-packages (from yfinance) (2.2.5)
+Requirement already satisfied: requests&gt;=2.31 in /Users/echen/miniconda3/lib/python3.11/site-packages (from yfinance) (2.32.3)
+Requirement already satisfied: multitasking&gt;=0.0.7 in /Users/echen/miniconda3/lib/python3.11/site-packages (from yfinance) (0.0.11)
+Requirement already satisfied: platformdirs&gt;=2.0.0 in /Users/echen/miniconda3/lib/python3.11/site-packages (from yfinance) (3.10.0)
+Requirement already satisfied: pytz&gt;=2022.5 in /Users/echen/miniconda3/lib/python3.11/site-packages (from yfinance) (2025.2)
+Requirement already satisfied: frozendict&gt;=2.3.4 in /Users/echen/miniconda3/lib/python3.11/site-packages (from yfinance) (2.4.6)
+Requirement already satisfied: peewee&gt;=3.16.2 in /Users/echen/miniconda3/lib/python3.11/site-packages (from yfinance) (3.18.1)
+Requirement already satisfied: beautifulsoup4&gt;=4.11.1 in /Users/echen/miniconda3/lib/python3.11/site-packages (from yfinance) (4.13.4)
+Requirement already satisfied: curl_cffi&gt;=0.7 in /Users/echen/miniconda3/lib/python3.11/site-packages (from yfinance) (0.10.0)
+Requirement already satisfied: protobuf&lt;6,&gt;=5.29.0 in /Users/echen/miniconda3/lib/python3.11/site-packages (from yfinance) (5.29.4)
+Requirement already satisfied: websockets&gt;=11.0 in /Users/echen/miniconda3/lib/python3.11/site-packages (from yfinance) (13.1)
+Requirement already satisfied: soupsieve&gt;1.2 in /Users/echen/miniconda3/lib/python3.11/site-packages (from beautifulsoup4&gt;=4.11.1-&gt;yfinance) (2.7)
+Requirement already satisfied: typing-extensions&gt;=4.0.0 in /Users/echen/miniconda3/lib/python3.11/site-packages (from beautifulsoup4&gt;=4.11.1-&gt;yfinance) (4.13.2)
+Requirement already satisfied: cffi&gt;=1.12.0 in /Users/echen/miniconda3/lib/python3.11/site-packages (from curl_cffi&gt;=0.7-&gt;yfinance) (1.16.0)
+Requirement already satisfied: certifi&gt;=2024.2.2 in /Users/echen/miniconda3/lib/python3.11/site-packages (from curl_cffi&gt;=0.7-&gt;yfinance) (2025.4.26)
+Requirement already satisfied: python-dateutil&gt;=2.8.2 in /Users/echen/miniconda3/lib/python3.11/site-packages (from pandas&gt;=1.3.0-&gt;yfinance) (2.9.0.post0)
+Requirement already satisfied: tzdata&gt;=2022.7 in /Users/echen/miniconda3/lib/python3.11/site-packages (from pandas&gt;=1.3.0-&gt;yfinance) (2025.2)
+Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /Users/echen/miniconda3/lib/python3.11/site-packages (from requests&gt;=2.31-&gt;yfinance) (2.0.4)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in /Users/echen/miniconda3/lib/python3.11/site-packages (from requests&gt;=2.31-&gt;yfinance) (3.4)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /Users/echen/miniconda3/lib/python3.11/site-packages (from requests&gt;=2.31-&gt;yfinance) (1.26.18)
+Requirement already satisfied: pycparser in /Users/echen/miniconda3/lib/python3.11/site-packages (from cffi&gt;=1.12.0-&gt;curl_cffi&gt;=0.7-&gt;yfinance) (2.21)
+Requirement already satisfied: six&gt;=1.5 in /Users/echen/miniconda3/lib/python3.11/site-packages (from python-dateutil&gt;=2.8.2-&gt;pandas&gt;=1.3.0-&gt;yfinance) (1.17.0)
+Note: you may need to restart the kernel to use updated packages.
+Requirement already satisfied: forex-python in /Users/echen/miniconda3/lib/python3.11/site-packages (1.8)
+Requirement already satisfied: requests in /Users/echen/miniconda3/lib/python3.11/site-packages (from forex-python) (2.32.3)
+Requirement already satisfied: simplejson in /Users/echen/miniconda3/lib/python3.11/site-packages (from forex-python) (3.20.1)
+Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /Users/echen/miniconda3/lib/python3.11/site-packages (from requests-&gt;forex-python) (2.0.4)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in /Users/echen/miniconda3/lib/python3.11/site-packages (from requests-&gt;forex-python) (3.4)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /Users/echen/miniconda3/lib/python3.11/site-packages (from requests-&gt;forex-python) (1.26.18)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /Users/echen/miniconda3/lib/python3.11/site-packages (from requests-&gt;forex-python) (2025.4.26)
+Note: you may need to restart the kernel to use updated packages.
+Requirement already satisfied: matplotlib in /Users/echen/miniconda3/lib/python3.11/site-packages (3.10.1)
+Requirement already satisfied: contourpy&gt;=1.0.1 in /Users/echen/miniconda3/lib/python3.11/site-packages (from matplotlib) (1.3.2)
+Requirement already satisfied: cycler&gt;=0.10 in /Users/echen/miniconda3/lib/python3.11/site-packages (from matplotlib) (0.12.1)
+Requirement already satisfied: fonttools&gt;=4.22.0 in /Users/echen/miniconda3/lib/python3.11/site-packages (from matplotlib) (4.57.0)
+Requirement already satisfied: kiwisolver&gt;=1.3.1 in /Users/echen/miniconda3/lib/python3.11/site-packages (from matplotlib) (1.4.8)
+Requirement already satisfied: numpy&gt;=1.23 in /Users/echen/miniconda3/lib/python3.11/site-packages (from matplotlib) (2.2.5)
+Requirement already satisfied: packaging&gt;=20.0 in /Users/echen/miniconda3/lib/python3.11/site-packages (from matplotlib) (23.1)
+Requirement already satisfied: pillow&gt;=8 in /Users/echen/miniconda3/lib/python3.11/site-packages (from matplotlib) (11.2.1)
+Requirement already satisfied: pyparsing&gt;=2.3.1 in /Users/echen/miniconda3/lib/python3.11/site-packages (from matplotlib) (3.2.3)
+Requirement already satisfied: python-dateutil&gt;=2.7 in /Users/echen/miniconda3/lib/python3.11/site-packages (from matplotlib) (2.9.0.post0)
+Requirement already satisfied: six&gt;=1.5 in /Users/echen/miniconda3/lib/python3.11/site-packages (from python-dateutil&gt;=2.7-&gt;matplotlib) (1.17.0)
+Note: you may need to restart the kernel to use updated packages.
+Requirement already satisfied: scikit-learn in /Users/echen/miniconda3/lib/python3.11/site-packages (1.6.1)
+Requirement already satisfied: numpy&gt;=1.19.5 in /Users/echen/miniconda3/lib/python3.11/site-packages (from scikit-learn) (2.2.5)
+Requirement already satisfied: scipy&gt;=1.6.0 in /Users/echen/miniconda3/lib/python3.11/site-packages (from scikit-learn) (1.15.2)
+Requirement already satisfied: joblib&gt;=1.2.0 in /Users/echen/miniconda3/lib/python3.11/site-packages (from scikit-learn) (1.5.0)
+Requirement already satisfied: threadpoolctl&gt;=3.1.0 in /Users/echen/miniconda3/lib/python3.11/site-packages (from scikit-learn) (3.6.0)
+Note: you may need to restart the kernel to use updated packages.
+Requirement already satisfied: alpha_vantage in /Users/echen/miniconda3/lib/python3.11/site-packages (3.0.0)
+Requirement already satisfied: aiohttp in /Users/echen/miniconda3/lib/python3.11/site-packages (from alpha_vantage) (3.11.13)
+Requirement already satisfied: requests in /Users/echen/miniconda3/lib/python3.11/site-packages (from alpha_vantage) (2.32.3)
+Requirement already satisfied: aiohappyeyeballs&gt;=2.3.0 in /Users/echen/miniconda3/lib/python3.11/site-packages (from aiohttp-&gt;alpha_vantage) (2.4.6)
+Requirement already satisfied: aiosignal&gt;=1.1.2 in /Users/echen/miniconda3/lib/python3.11/site-packages (from aiohttp-&gt;alpha_vantage) (1.3.2)
+Requirement already satisfied: attrs&gt;=17.3.0 in /Users/echen/miniconda3/lib/python3.11/site-packages (from aiohttp-&gt;alpha_vantage) (25.1.0)
+Requirement already satisfied: frozenlist&gt;=1.1.1 in /Users/echen/miniconda3/lib/python3.11/site-packages (from aiohttp-&gt;alpha_vantage) (1.5.0)
+Requirement already satisfied: multidict&lt;7.0,&gt;=4.5 in /Users/echen/miniconda3/lib/python3.11/site-packages (from aiohttp-&gt;alpha_vantage) (6.1.0)
+Requirement already satisfied: propcache&gt;=0.2.0 in /Users/echen/miniconda3/lib/python3.11/site-packages (from aiohttp-&gt;alpha_vantage) (0.3.0)
+Requirement already satisfied: yarl&lt;2.0,&gt;=1.17.0 in /Users/echen/miniconda3/lib/python3.11/site-packages (from aiohttp-&gt;alpha_vantage) (1.18.3)
+Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /Users/echen/miniconda3/lib/python3.11/site-packages (from requests-&gt;alpha_vantage) (2.0.4)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in /Users/echen/miniconda3/lib/python3.11/site-packages (from requests-&gt;alpha_vantage) (3.4)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /Users/echen/miniconda3/lib/python3.11/site-packages (from requests-&gt;alpha_vantage) (1.26.18)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /Users/echen/miniconda3/lib/python3.11/site-packages (from requests-&gt;alpha_vantage) (2025.4.26)
+Note: you may need to restart the kernel to use updated packages.
+Requirement already satisfied: requests in /Users/echen/miniconda3/lib/python3.11/site-packages (2.32.3)
+Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /Users/echen/miniconda3/lib/python3.11/site-packages (from requests) (2.0.4)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in /Users/echen/miniconda3/lib/python3.11/site-packages (from requests) (3.4)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /Users/echen/miniconda3/lib/python3.11/site-packages (from requests) (1.26.18)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /Users/echen/miniconda3/lib/python3.11/site-packages (from requests) (2025.4.26)
+Note: you may need to restart the kernel to use updated packages.
+Requirement already satisfied: currencyapicom in /Users/echen/miniconda3/lib/python3.11/site-packages (0.1.1)
+Requirement already satisfied: requests in /Users/echen/miniconda3/lib/python3.11/site-packages (from currencyapicom) (2.32.3)
+Requirement already satisfied: everapi in /Users/echen/miniconda3/lib/python3.11/site-packages (from currencyapicom) (0.1.1)
+Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /Users/echen/miniconda3/lib/python3.11/site-packages (from requests-&gt;currencyapicom) (2.0.4)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in /Users/echen/miniconda3/lib/python3.11/site-packages (from requests-&gt;currencyapicom) (3.4)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /Users/echen/miniconda3/lib/python3.11/site-packages (from requests-&gt;currencyapicom) (1.26.18)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /Users/echen/miniconda3/lib/python3.11/site-packages (from requests-&gt;currencyapicom) (2025.4.26)
+Note: you may need to restart the kernel to use updated packages.
+Requirement already satisfied: seaborn in /Users/echen/miniconda3/lib/python3.11/site-packages (0.13.2)
+Requirement already satisfied: numpy!=1.24.0,&gt;=1.20 in /Users/echen/miniconda3/lib/python3.11/site-packages (from seaborn) (2.2.5)
+Requirement already satisfied: pandas&gt;=1.2 in /Users/echen/miniconda3/lib/python3.11/site-packages (from seaborn) (2.2.3)
+Requirement already satisfied: matplotlib!=3.6.1,&gt;=3.4 in /Users/echen/miniconda3/lib/python3.11/site-packages (from seaborn) (3.10.1)
+Requirement already satisfied: contourpy&gt;=1.0.1 in /Users/echen/miniconda3/lib/python3.11/site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (1.3.2)
+Requirement already satisfied: cycler&gt;=0.10 in /Users/echen/miniconda3/lib/python3.11/site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (0.12.1)
+Requirement already satisfied: fonttools&gt;=4.22.0 in /Users/echen/miniconda3/lib/python3.11/site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (4.57.0)
+Requirement already satisfied: kiwisolver&gt;=1.3.1 in /Users/echen/miniconda3/lib/python3.11/site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (1.4.8)
+Requirement already satisfied: packaging&gt;=20.0 in /Users/echen/miniconda3/lib/python3.11/site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (23.1)
+Requirement already satisfied: pillow&gt;=8 in /Users/echen/miniconda3/lib/python3.11/site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (11.2.1)
+Requirement already satisfied: pyparsing&gt;=2.3.1 in /Users/echen/miniconda3/lib/python3.11/site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (3.2.3)
+Requirement already satisfied: python-dateutil&gt;=2.7 in /Users/echen/miniconda3/lib/python3.11/site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (2.9.0.post0)
+Requirement already satisfied: pytz&gt;=2020.1 in /Users/echen/miniconda3/lib/python3.11/site-packages (from pandas&gt;=1.2-&gt;seaborn) (2025.2)
+Requirement already satisfied: tzdata&gt;=2022.7 in /Users/echen/miniconda3/lib/python3.11/site-packages (from pandas&gt;=1.2-&gt;seaborn) (2025.2)
+Requirement already satisfied: six&gt;=1.5 in /Users/echen/miniconda3/lib/python3.11/site-packages (from python-dateutil&gt;=2.7-&gt;matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (1.17.0)
+Note: you may need to restart the kernel to use updated packages.
+Requirement already satisfied: scipy in /Users/echen/miniconda3/lib/python3.11/site-packages (1.15.2)
+Requirement already satisfied: numpy&lt;2.5,&gt;=1.23.5 in /Users/echen/miniconda3/lib/python3.11/site-packages (from scipy) (2.2.5)
+Note: you may need to restart the kernel to use updated packages.
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> yfinance <span class="im">as</span> yf</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> functools <span class="im">import</span> <span class="bu">reduce</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LogisticRegression</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score  </span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> ElasticNet</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_squared_error, r2_score</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> TimeSeriesSplit</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datetime <span class="im">import</span> date, timedelta</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> forex_python.converter <span class="im">import</span> CurrencyRates</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> alpha_vantage.timeseries <span class="im">import</span> TimeSeries</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> requests</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> currencyapicom</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.stats <span class="im">import</span> pearsonr, spearmanr</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Ensuring that the timestamps for oil and the other economic factors line up. We want each oil datapoint to be associated with the correct economic factor datapoint. If oil has a data point at a specific date and the economic factor does not, we will interpolate the economic data point or drop it.</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Oil and Natural Gas</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Natural Gas already lined up properly</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>oil <span class="op">=</span> pd.read_csv(<span class="st">&#39;data/oil_data.csv&#39;</span>) </span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>ng <span class="op">=</span> pd.read_csv(<span class="st">&#39;data/natural_gas_data.csv&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Oil vs Euro Value</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>oil <span class="op">=</span> pd.read_csv(<span class="st">&#39;data/oil_data.csv&#39;</span>)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>eur <span class="op">=</span> pd.read_csv(<span class="st">&#39;data/eur_data.csv&#39;</span>)</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>eur <span class="op">=</span> eur.drop([<span class="st">&#39;Open&#39;</span>, <span class="st">&#39;High&#39;</span>, <span class="st">&#39;Low&#39;</span>, <span class="st">&#39;Vol.&#39;</span>, <span class="st">&#39;Change %&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>oil <span class="op">=</span> oil.drop([<span class="st">&#39;Open&#39;</span>, <span class="st">&#39;High&#39;</span>, <span class="st">&#39;Low&#39;</span>, <span class="st">&#39;Vol.&#39;</span>, <span class="st">&#39;Change %&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert &#39;Date&#39; columns to datetime data type</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>eur[<span class="st">&#39;Date&#39;</span>] <span class="op">=</span> pd.to_datetime(eur[<span class="st">&#39;Date&#39;</span>])</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>oil[<span class="st">&#39;Date&#39;</span>] <span class="op">=</span> pd.to_datetime(oil[<span class="st">&#39;Date&#39;</span>])</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort the &#39;Date&#39; column in both DataFrames</span></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>eur.sort_values(by<span class="op">=</span><span class="st">&#39;Date&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>oil.sort_values(by<span class="op">=</span><span class="st">&#39;Date&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Merge ng data into eur, keeping the chronological order</span></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>eur <span class="op">=</span> pd.merge_asof(eur, oil, on<span class="op">=</span><span class="st">&#39;Date&#39;</span>, direction<span class="op">=</span><span class="st">&#39;forward&#39;</span>, suffixes<span class="op">=</span>(<span class="st">&#39;&#39;</span>, <span class="st">&#39;_oil&#39;</span>))</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter rows in eur that are not in ng</span></span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>eur <span class="op">=</span> eur.dropna(subset<span class="op">=</span>[<span class="st">&#39;Price_oil&#39;</span>])</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop the &#39;Price_ng&#39; column as it&#39;s no longer needed</span></span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>eur <span class="op">=</span> eur.drop(<span class="st">&#39;Price_oil&#39;</span>, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Keep only date values present in ng</span></span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>eur <span class="op">=</span> eur[eur[<span class="st">&#39;Date&#39;</span>].isin(oil[<span class="st">&#39;Date&#39;</span>])]</span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a><span class="co"># Add rows from ng that are missing in eur</span></span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>missing_dates_mask <span class="op">=</span> <span class="op">~</span>oil[<span class="st">&#39;Date&#39;</span>].isin(eur[<span class="st">&#39;Date&#39;</span>])</span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>missing_rows <span class="op">=</span> oil[missing_dates_mask]</span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a><span class="co"># Concatenate missing rows to eur</span></span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>eur <span class="op">=</span> pd.concat([eur, missing_rows], ignore_index<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort the DataFrame by the &#39;Date&#39; column</span></span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a>eur.sort_values(by<span class="op">=</span><span class="st">&#39;Date&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a><span class="co"># Reset the index</span></span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a>eur.reset_index(drop<span class="op">=</span><span class="va">True</span>, inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Oil and Gold</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Load gold data</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>gold <span class="op">=</span> pd.read_csv(<span class="st">&#39;data/gold_data.csv&#39;</span>)</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert &#39;Date&#39; column to datetime data type</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>gold[<span class="st">&#39;Date&#39;</span>] <span class="op">=</span> pd.to_datetime(gold[<span class="st">&#39;Date&#39;</span>])</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop unnecessary columns from gold DataFrame</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>gold <span class="op">=</span> gold[[<span class="st">&#39;Date&#39;</span>, <span class="st">&#39;Price&#39;</span>]]</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Set &#39;Date&#39; column as the index for gold DataFrame</span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>gold.set_index(<span class="st">&#39;Date&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort the &#39;Date&#39; index in the gold DataFrame</span></span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>gold.sort_index(inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Load oil data</span></span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>oil <span class="op">=</span> pd.read_csv(<span class="st">&quot;data/oil_data.csv&quot;</span>)  <span class="co"># Replace with the correct file name</span></span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>oil[<span class="st">&#39;Date&#39;</span>] <span class="op">=</span> pd.to_datetime(oil[<span class="st">&#39;Date&#39;</span>])</span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Set &#39;Date&#39; column as the index for oil DataFrame</span></span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>oil.set_index(<span class="st">&#39;Date&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort the &#39;Date&#39; index in the oil DataFrame</span></span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>oil.sort_index(inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a><span class="co"># Remove rows in &#39;gold&#39; that do not have corresponding dates in &#39;oil&#39;</span></span>
+<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a>gold <span class="op">=</span> gold[gold.index.isin(oil.index)]</span>
+<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a><span class="co"># Merge gold data into oil, keeping the chronological order</span></span>
+<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a>merged_data <span class="op">=</span> pd.merge_asof(gold, oil, left_index<span class="op">=</span><span class="va">True</span>, right_index<span class="op">=</span><span class="va">True</span>, direction<span class="op">=</span><span class="st">&#39;forward&#39;</span>, suffixes<span class="op">=</span>(<span class="st">&#39;_gold&#39;</span>, <span class="st">&#39;_oil&#39;</span>))</span>
+<span id="cb6-35"><a href="#cb6-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-36"><a href="#cb6-36" aria-hidden="true" tabindex="-1"></a><span class="co"># Add rows with dates from &#39;oil&#39; that are not in &#39;gold&#39; and set &#39;Price_gold&#39; to NaN</span></span>
+<span id="cb6-37"><a href="#cb6-37" aria-hidden="true" tabindex="-1"></a>missing_dates <span class="op">=</span> oil[<span class="op">~</span>oil.index.isin(gold.index)]</span>
+<span id="cb6-38"><a href="#cb6-38" aria-hidden="true" tabindex="-1"></a>missing_dates[<span class="st">&#39;Price_gold&#39;</span>] <span class="op">=</span> np.nan</span>
+<span id="cb6-39"><a href="#cb6-39" aria-hidden="true" tabindex="-1"></a>merged_data <span class="op">=</span> pd.concat([merged_data, missing_dates], ignore_index<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb6-40"><a href="#cb6-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-41"><a href="#cb6-41" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort the DataFrame by &#39;Date&#39; after concatenation</span></span>
+<span id="cb6-42"><a href="#cb6-42" aria-hidden="true" tabindex="-1"></a>merged_data.sort_index(inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb6-43"><a href="#cb6-43" aria-hidden="true" tabindex="-1"></a>merged_data[<span class="st">&#39;Price_gold&#39;</span>] <span class="op">=</span> merged_data[<span class="st">&#39;Price_gold&#39;</span>].replace(<span class="st">&#39;,&#39;</span>, <span class="st">&#39;&#39;</span>, regex<span class="op">=</span><span class="va">True</span>) <span class="co"># STRIPS comams for float conversion</span></span>
+<span id="cb6-44"><a href="#cb6-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-45"><a href="#cb6-45" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert &#39;Price_gold&#39; and &#39;Price_oil&#39; columns to numeric type</span></span>
+<span id="cb6-46"><a href="#cb6-46" aria-hidden="true" tabindex="-1"></a>merged_data[<span class="st">&#39;Price_gold&#39;</span>] <span class="op">=</span> pd.to_numeric(merged_data[<span class="st">&#39;Price_gold&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb6-47"><a href="#cb6-47" aria-hidden="true" tabindex="-1"></a>merged_data[<span class="st">&#39;Price_oil&#39;</span>] <span class="op">=</span> pd.to_numeric(merged_data[<span class="st">&#39;Price_oil&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb6-48"><a href="#cb6-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-49"><a href="#cb6-49" aria-hidden="true" tabindex="-1"></a><span class="co"># Time series interpolation of missing values for gold </span></span>
+<span id="cb6-50"><a href="#cb6-50" aria-hidden="true" tabindex="-1"></a>merged_data[<span class="st">&#39;Price_gold&#39;</span>] <span class="op">=</span> merged_data[<span class="st">&#39;Price_gold&#39;</span>].interpolate(method<span class="op">=</span><span class="st">&#39;time&#39;</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/var/folders/6p/ycgkpqkx6rd0xffcbwt9wg8w0000gn/T/ipykernel_25970/3044710277.py:38: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  missing_dates[&#39;Price_gold&#39;] = np.nan
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="8">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Oil and US Dollar</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Load dollar data</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>dollar <span class="op">=</span> pd.read_csv(<span class="st">&#39;data/dollar_data.csv&#39;</span>)</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert &#39;Date&#39; column to datetime data type</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>dollar[<span class="st">&#39;Date&#39;</span>] <span class="op">=</span> pd.to_datetime(dollar[<span class="st">&#39;Date&#39;</span>])</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop unnecessary columns from dollar DataFrame</span></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>dollar <span class="op">=</span> dollar[[<span class="st">&#39;Date&#39;</span>, <span class="st">&#39;Price&#39;</span>]]</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Set &#39;Date&#39; column as the index for dollar DataFrame</span></span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>dollar.set_index(<span class="st">&#39;Date&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort the &#39;Date&#39; index in the dollar DataFrame</span></span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>dollar.sort_index(inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Load oil data</span></span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>oil <span class="op">=</span> pd.read_csv(<span class="st">&quot;data/oil_data.csv&quot;</span>)  <span class="co"># Replace with the correct file name</span></span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>oil[<span class="st">&#39;Date&#39;</span>] <span class="op">=</span> pd.to_datetime(oil[<span class="st">&#39;Date&#39;</span>])</span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Set &#39;Date&#39; column as the index for oil DataFrame</span></span>
+<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a>oil.set_index(<span class="st">&#39;Date&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-24"><a href="#cb8-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-25"><a href="#cb8-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort the &#39;Date&#39; index in the oil DataFrame</span></span>
+<span id="cb8-26"><a href="#cb8-26" aria-hidden="true" tabindex="-1"></a>oil.sort_index(inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-27"><a href="#cb8-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-28"><a href="#cb8-28" aria-hidden="true" tabindex="-1"></a><span class="co"># Remove rows in &#39;dollar&#39; that do not have corresponding dates in &#39;oil&#39;</span></span>
+<span id="cb8-29"><a href="#cb8-29" aria-hidden="true" tabindex="-1"></a>dollar <span class="op">=</span> dollar[dollar.index.isin(oil.index)]</span>
+<span id="cb8-30"><a href="#cb8-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-31"><a href="#cb8-31" aria-hidden="true" tabindex="-1"></a><span class="co"># Merge dollar data into oil, keeping the chronological order</span></span>
+<span id="cb8-32"><a href="#cb8-32" aria-hidden="true" tabindex="-1"></a>merged_data <span class="op">=</span> pd.merge_asof(dollar, oil, left_index<span class="op">=</span><span class="va">True</span>, right_index<span class="op">=</span><span class="va">True</span>, direction<span class="op">=</span><span class="st">&#39;forward&#39;</span>, suffixes<span class="op">=</span>(<span class="st">&#39;_dollar&#39;</span>, <span class="st">&#39;_oil&#39;</span>))</span>
+<span id="cb8-33"><a href="#cb8-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-34"><a href="#cb8-34" aria-hidden="true" tabindex="-1"></a><span class="co"># Add rows with dates from &#39;oil&#39; that are not in &#39;dollar&#39; and set &#39;Price_dollar&#39; to NaN</span></span>
+<span id="cb8-35"><a href="#cb8-35" aria-hidden="true" tabindex="-1"></a>missing_dates <span class="op">=</span> oil[<span class="op">~</span>oil.index.isin(dollar.index)]</span>
+<span id="cb8-36"><a href="#cb8-36" aria-hidden="true" tabindex="-1"></a>missing_dates[<span class="st">&#39;Price_dollar&#39;</span>] <span class="op">=</span> np.nan</span>
+<span id="cb8-37"><a href="#cb8-37" aria-hidden="true" tabindex="-1"></a>merged_data <span class="op">=</span> pd.concat([merged_data, missing_dates], ignore_index<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb8-38"><a href="#cb8-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-39"><a href="#cb8-39" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort the DataFrame by &#39;Date&#39; after concatenation</span></span>
+<span id="cb8-40"><a href="#cb8-40" aria-hidden="true" tabindex="-1"></a>merged_data.sort_index(inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-41"><a href="#cb8-41" aria-hidden="true" tabindex="-1"></a>merged_data[<span class="st">&#39;Price_dollar&#39;</span>] <span class="op">=</span> merged_data[<span class="st">&#39;Price_dollar&#39;</span>].replace(<span class="st">&#39;,&#39;</span>, <span class="st">&#39;&#39;</span>, regex<span class="op">=</span><span class="va">True</span>) <span class="co"># STRIPS comams for float conversion</span></span>
+<span id="cb8-42"><a href="#cb8-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-43"><a href="#cb8-43" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert &#39;Price_dollar&#39; and &#39;Price_oil&#39; columns to numeric type</span></span>
+<span id="cb8-44"><a href="#cb8-44" aria-hidden="true" tabindex="-1"></a>merged_data[<span class="st">&#39;Price_dollar&#39;</span>] <span class="op">=</span> pd.to_numeric(merged_data[<span class="st">&#39;Price_dollar&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb8-45"><a href="#cb8-45" aria-hidden="true" tabindex="-1"></a>merged_data[<span class="st">&#39;Price_oil&#39;</span>] <span class="op">=</span> pd.to_numeric(merged_data[<span class="st">&#39;Price_oil&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb8-46"><a href="#cb8-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-47"><a href="#cb8-47" aria-hidden="true" tabindex="-1"></a><span class="co"># Time series interpolation of missing values in the &#39;Price_dollar&#39; column</span></span>
+<span id="cb8-48"><a href="#cb8-48" aria-hidden="true" tabindex="-1"></a>merged_data[<span class="st">&#39;Price_dollar&#39;</span>] <span class="op">=</span> merged_data[<span class="st">&#39;Price_dollar&#39;</span>].interpolate(method<span class="op">=</span><span class="st">&#39;time&#39;</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/var/folders/6p/ycgkpqkx6rd0xffcbwt9wg8w0000gn/T/ipykernel_25970/4141364857.py:36: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  missing_dates[&#39;Price_dollar&#39;] = np.nan
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="9">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Oil and Japananese Yen</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Load japan data</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>japan <span class="op">=</span> pd.read_csv(<span class="st">&#39;data/japan_data.csv&#39;</span>)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert &#39;Date&#39; column to datetime data type</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>japan[<span class="st">&#39;Date&#39;</span>] <span class="op">=</span> pd.to_datetime(japan[<span class="st">&#39;Date&#39;</span>])</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop unnecessary columns from japan DataFrame</span></span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>japan <span class="op">=</span> japan[[<span class="st">&#39;Date&#39;</span>, <span class="st">&#39;Price&#39;</span>]]</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Set &#39;Date&#39; column as the index for japan DataFrame</span></span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>japan.set_index(<span class="st">&#39;Date&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort the &#39;Date&#39; index in the japan DataFrame</span></span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>japan.sort_index(inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Load oil data</span></span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>oil <span class="op">=</span> pd.read_csv(<span class="st">&quot;data/oil_data.csv&quot;</span>)  <span class="co"># Replace with the correct file name</span></span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>oil[<span class="st">&#39;Date&#39;</span>] <span class="op">=</span> pd.to_datetime(oil[<span class="st">&#39;Date&#39;</span>])</span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Set &#39;Date&#39; column as the index for oil DataFrame</span></span>
+<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a>oil.set_index(<span class="st">&#39;Date&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb10-24"><a href="#cb10-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-25"><a href="#cb10-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort the &#39;Date&#39; index in the oil DataFrame</span></span>
+<span id="cb10-26"><a href="#cb10-26" aria-hidden="true" tabindex="-1"></a>oil.sort_index(inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb10-27"><a href="#cb10-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-28"><a href="#cb10-28" aria-hidden="true" tabindex="-1"></a><span class="co"># Remove rows in &#39;japan&#39; that do not have corresponding dates in &#39;oil&#39;</span></span>
+<span id="cb10-29"><a href="#cb10-29" aria-hidden="true" tabindex="-1"></a>japan <span class="op">=</span> japan[japan.index.isin(oil.index)]</span>
+<span id="cb10-30"><a href="#cb10-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-31"><a href="#cb10-31" aria-hidden="true" tabindex="-1"></a><span class="co"># Merge japan data into oil, keeping the chronological order</span></span>
+<span id="cb10-32"><a href="#cb10-32" aria-hidden="true" tabindex="-1"></a>merged_data <span class="op">=</span> pd.merge_asof(japan, oil, left_index<span class="op">=</span><span class="va">True</span>, right_index<span class="op">=</span><span class="va">True</span>, direction<span class="op">=</span><span class="st">&#39;forward&#39;</span>, suffixes<span class="op">=</span>(<span class="st">&#39;_japan&#39;</span>, <span class="st">&#39;_oil&#39;</span>))</span>
+<span id="cb10-33"><a href="#cb10-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-34"><a href="#cb10-34" aria-hidden="true" tabindex="-1"></a><span class="co"># Add rows with dates from &#39;oil&#39; that are not in &#39;japan&#39; and set &#39;Price_japan&#39; to NaN</span></span>
+<span id="cb10-35"><a href="#cb10-35" aria-hidden="true" tabindex="-1"></a>missing_dates <span class="op">=</span> oil[<span class="op">~</span>oil.index.isin(japan.index)]</span>
+<span id="cb10-36"><a href="#cb10-36" aria-hidden="true" tabindex="-1"></a>missing_dates[<span class="st">&#39;Price_japan&#39;</span>] <span class="op">=</span> np.nan</span>
+<span id="cb10-37"><a href="#cb10-37" aria-hidden="true" tabindex="-1"></a>merged_data <span class="op">=</span> pd.concat([merged_data, missing_dates], ignore_index<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb10-38"><a href="#cb10-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-39"><a href="#cb10-39" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort the DataFrame by &#39;Date&#39; after concatenation</span></span>
+<span id="cb10-40"><a href="#cb10-40" aria-hidden="true" tabindex="-1"></a>merged_data.sort_index(inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb10-41"><a href="#cb10-41" aria-hidden="true" tabindex="-1"></a>merged_data[<span class="st">&#39;Price_japan&#39;</span>] <span class="op">=</span> merged_data[<span class="st">&#39;Price_japan&#39;</span>].replace(<span class="st">&#39;,&#39;</span>, <span class="st">&#39;&#39;</span>, regex<span class="op">=</span><span class="va">True</span>) <span class="co"># STRIPS comams for float conversion</span></span>
+<span id="cb10-42"><a href="#cb10-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-43"><a href="#cb10-43" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert &#39;Price_japan&#39; and &#39;Price_oil&#39; columns to numeric type</span></span>
+<span id="cb10-44"><a href="#cb10-44" aria-hidden="true" tabindex="-1"></a>merged_data[<span class="st">&#39;Price_japan&#39;</span>] <span class="op">=</span> pd.to_numeric(merged_data[<span class="st">&#39;Price_japan&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb10-45"><a href="#cb10-45" aria-hidden="true" tabindex="-1"></a>merged_data[<span class="st">&#39;Price_oil&#39;</span>] <span class="op">=</span> pd.to_numeric(merged_data[<span class="st">&#39;Price_oil&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb10-46"><a href="#cb10-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-47"><a href="#cb10-47" aria-hidden="true" tabindex="-1"></a><span class="co"># Time series interpolation of missing values in the &#39;Price_japan&#39; column</span></span>
+<span id="cb10-48"><a href="#cb10-48" aria-hidden="true" tabindex="-1"></a>merged_data[<span class="st">&#39;Price_japan&#39;</span>] <span class="op">=</span> merged_data[<span class="st">&#39;Price_japan&#39;</span>].interpolate(method<span class="op">=</span><span class="st">&#39;time&#39;</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/var/folders/6p/ycgkpqkx6rd0xffcbwt9wg8w0000gn/T/ipykernel_25970/1988802534.py:36: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  missing_dates[&#39;Price_japan&#39;] = np.nan
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Oil and US Economy</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Load spy data</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>spy <span class="op">=</span> pd.read_csv(<span class="st">&#39;data/spy.csv&#39;</span>)</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert &#39;Date&#39; column to datetime data type</span></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>spy[<span class="st">&#39;Date&#39;</span>] <span class="op">=</span> pd.to_datetime(spy[<span class="st">&#39;Date&#39;</span>])</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop unnecessary columns from spy DataFrame</span></span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>spy <span class="op">=</span> spy[[<span class="st">&#39;Date&#39;</span>, <span class="st">&#39;Price&#39;</span>]]</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Set &#39;Date&#39; column as the index for spy DataFrame</span></span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>spy.set_index(<span class="st">&#39;Date&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort the &#39;Date&#39; index in the spy DataFrame</span></span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>spy.sort_index(inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Load oil data</span></span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a>oil <span class="op">=</span> pd.read_csv(<span class="st">&quot;data/oil_data.csv&quot;</span>)  <span class="co"># Replace with the correct file name</span></span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a>oil[<span class="st">&#39;Date&#39;</span>] <span class="op">=</span> pd.to_datetime(oil[<span class="st">&#39;Date&#39;</span>])</span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Set &#39;Date&#39; column as the index for oil DataFrame</span></span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a>oil.set_index(<span class="st">&#39;Date&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort the &#39;Date&#39; index in the oil DataFrame</span></span>
+<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a>oil.sort_index(inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a><span class="co"># Remove rows in &#39;spy&#39; that do not have corresponding dates in &#39;oil&#39;</span></span>
+<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a>spy <span class="op">=</span> spy[spy.index.isin(oil.index)]</span>
+<span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-31"><a href="#cb12-31" aria-hidden="true" tabindex="-1"></a><span class="co"># Merge spy data into oil, keeping the chronological order</span></span>
+<span id="cb12-32"><a href="#cb12-32" aria-hidden="true" tabindex="-1"></a>merged_data <span class="op">=</span> pd.merge_asof(spy, oil, left_index<span class="op">=</span><span class="va">True</span>, right_index<span class="op">=</span><span class="va">True</span>, direction<span class="op">=</span><span class="st">&#39;forward&#39;</span>, suffixes<span class="op">=</span>(<span class="st">&#39;_spy&#39;</span>, <span class="st">&#39;_oil&#39;</span>))</span>
+<span id="cb12-33"><a href="#cb12-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-34"><a href="#cb12-34" aria-hidden="true" tabindex="-1"></a><span class="co"># Add rows with dates from &#39;oil&#39; that are not in &#39;spy&#39; and set &#39;Price_spy&#39; to NaN</span></span>
+<span id="cb12-35"><a href="#cb12-35" aria-hidden="true" tabindex="-1"></a>missing_dates <span class="op">=</span> oil[<span class="op">~</span>oil.index.isin(spy.index)]</span>
+<span id="cb12-36"><a href="#cb12-36" aria-hidden="true" tabindex="-1"></a>missing_dates[<span class="st">&#39;Price_spy&#39;</span>] <span class="op">=</span> np.nan</span>
+<span id="cb12-37"><a href="#cb12-37" aria-hidden="true" tabindex="-1"></a>merged_data <span class="op">=</span> pd.concat([merged_data, missing_dates], ignore_index<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb12-38"><a href="#cb12-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-39"><a href="#cb12-39" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort the DataFrame by &#39;Date&#39; after concatenation</span></span>
+<span id="cb12-40"><a href="#cb12-40" aria-hidden="true" tabindex="-1"></a>merged_data.sort_index(inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb12-41"><a href="#cb12-41" aria-hidden="true" tabindex="-1"></a>merged_data[<span class="st">&#39;Price_spy&#39;</span>] <span class="op">=</span> merged_data[<span class="st">&#39;Price_spy&#39;</span>].replace(<span class="st">&#39;,&#39;</span>, <span class="st">&#39;&#39;</span>, regex<span class="op">=</span><span class="va">True</span>) <span class="co"># STRIPS comams for float conversion</span></span>
+<span id="cb12-42"><a href="#cb12-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-43"><a href="#cb12-43" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert &#39;Price_spy&#39; and &#39;Price_oil&#39; columns to numeric type</span></span>
+<span id="cb12-44"><a href="#cb12-44" aria-hidden="true" tabindex="-1"></a>merged_data[<span class="st">&#39;Price_spy&#39;</span>] <span class="op">=</span> pd.to_numeric(merged_data[<span class="st">&#39;Price_spy&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb12-45"><a href="#cb12-45" aria-hidden="true" tabindex="-1"></a>merged_data[<span class="st">&#39;Price_oil&#39;</span>] <span class="op">=</span> pd.to_numeric(merged_data[<span class="st">&#39;Price_oil&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb12-46"><a href="#cb12-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-47"><a href="#cb12-47" aria-hidden="true" tabindex="-1"></a><span class="co"># Time series interpolation of missing values in the &#39;Price_spy&#39; column</span></span>
+<span id="cb12-48"><a href="#cb12-48" aria-hidden="true" tabindex="-1"></a>merged_data[<span class="st">&#39;Price_spy&#39;</span>] <span class="op">=</span> merged_data[<span class="st">&#39;Price_spy&#39;</span>].interpolate(method<span class="op">=</span><span class="st">&#39;time&#39;</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/var/folders/6p/ycgkpqkx6rd0xffcbwt9wg8w0000gn/T/ipykernel_25970/37043719.py:36: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  missing_dates[&#39;Price_spy&#39;] = np.nan
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="11">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Oil and Exxon/Chevron, biggest shale/alternative oil producers</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Load exxon data</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>exxon <span class="op">=</span> pd.read_csv(<span class="st">&#39;data/exxon.csv&#39;</span>)</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert &#39;Date&#39; column to datetime data type</span></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>exxon[<span class="st">&#39;Date&#39;</span>] <span class="op">=</span> pd.to_datetime(exxon[<span class="st">&#39;Date&#39;</span>])</span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop unnecessary columns from exxon DataFrame</span></span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>exxon <span class="op">=</span> exxon[[<span class="st">&#39;Date&#39;</span>, <span class="st">&#39;Price&#39;</span>]]</span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Set &#39;Date&#39; column as the index for exxon DataFrame</span></span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>exxon.set_index(<span class="st">&#39;Date&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort the &#39;Date&#39; index in the exxon DataFrame</span></span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>exxon.sort_index(inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Load oil data</span></span>
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>oil <span class="op">=</span> pd.read_csv(<span class="st">&quot;data/oil_data.csv&quot;</span>)  <span class="co"># Replace with the correct file name</span></span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a>oil[<span class="st">&#39;Date&#39;</span>] <span class="op">=</span> pd.to_datetime(oil[<span class="st">&#39;Date&#39;</span>])</span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Set &#39;Date&#39; column as the index for oil DataFrame</span></span>
+<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a>oil.set_index(<span class="st">&#39;Date&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort the &#39;Date&#39; index in the oil DataFrame</span></span>
+<span id="cb14-26"><a href="#cb14-26" aria-hidden="true" tabindex="-1"></a>oil.sort_index(inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb14-27"><a href="#cb14-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a><span class="co"># Remove rows in &#39;exxon&#39; that do not have corresponding dates in &#39;oil&#39;</span></span>
+<span id="cb14-29"><a href="#cb14-29" aria-hidden="true" tabindex="-1"></a>exxon <span class="op">=</span> exxon[exxon.index.isin(oil.index)]</span>
+<span id="cb14-30"><a href="#cb14-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-31"><a href="#cb14-31" aria-hidden="true" tabindex="-1"></a><span class="co"># Merge exxon data into oil, keeping the chronological order</span></span>
+<span id="cb14-32"><a href="#cb14-32" aria-hidden="true" tabindex="-1"></a>merged_data <span class="op">=</span> pd.merge_asof(exxon, oil, left_index<span class="op">=</span><span class="va">True</span>, right_index<span class="op">=</span><span class="va">True</span>, direction<span class="op">=</span><span class="st">&#39;forward&#39;</span>, suffixes<span class="op">=</span>(<span class="st">&#39;_exxon&#39;</span>, <span class="st">&#39;_oil&#39;</span>))</span>
+<span id="cb14-33"><a href="#cb14-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-34"><a href="#cb14-34" aria-hidden="true" tabindex="-1"></a><span class="co"># Add rows with dates from &#39;oil&#39; that are not in &#39;exxon&#39; and set &#39;Price_exxon&#39; to NaN</span></span>
+<span id="cb14-35"><a href="#cb14-35" aria-hidden="true" tabindex="-1"></a>missing_dates <span class="op">=</span> oil[<span class="op">~</span>oil.index.isin(exxon.index)]</span>
+<span id="cb14-36"><a href="#cb14-36" aria-hidden="true" tabindex="-1"></a>missing_dates[<span class="st">&#39;Price_exxon&#39;</span>] <span class="op">=</span> np.nan</span>
+<span id="cb14-37"><a href="#cb14-37" aria-hidden="true" tabindex="-1"></a>merged_data <span class="op">=</span> pd.concat([merged_data, missing_dates], ignore_index<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb14-38"><a href="#cb14-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-39"><a href="#cb14-39" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort the DataFrame by &#39;Date&#39; after concatenation</span></span>
+<span id="cb14-40"><a href="#cb14-40" aria-hidden="true" tabindex="-1"></a>merged_data.sort_index(inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb14-41"><a href="#cb14-41" aria-hidden="true" tabindex="-1"></a>merged_data[<span class="st">&#39;Price_exxon&#39;</span>] <span class="op">=</span> merged_data[<span class="st">&#39;Price_exxon&#39;</span>].replace(<span class="st">&#39;,&#39;</span>, <span class="st">&#39;&#39;</span>, regex<span class="op">=</span><span class="va">True</span>) <span class="co"># STRIPS comams for float conversion</span></span>
+<span id="cb14-42"><a href="#cb14-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-43"><a href="#cb14-43" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert &#39;Price_exxon&#39; and &#39;Price_oil&#39; columns to numeric type</span></span>
+<span id="cb14-44"><a href="#cb14-44" aria-hidden="true" tabindex="-1"></a>merged_data[<span class="st">&#39;Price_exxon&#39;</span>] <span class="op">=</span> pd.to_numeric(merged_data[<span class="st">&#39;Price_exxon&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb14-45"><a href="#cb14-45" aria-hidden="true" tabindex="-1"></a>merged_data[<span class="st">&#39;Price_oil&#39;</span>] <span class="op">=</span> pd.to_numeric(merged_data[<span class="st">&#39;Price_oil&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb14-46"><a href="#cb14-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-47"><a href="#cb14-47" aria-hidden="true" tabindex="-1"></a><span class="co"># Time series interpolation of missing values in the &#39;Price_exxon&#39; column</span></span>
+<span id="cb14-48"><a href="#cb14-48" aria-hidden="true" tabindex="-1"></a>merged_data[<span class="st">&#39;Price_exxon&#39;</span>] <span class="op">=</span> merged_data[<span class="st">&#39;Price_exxon&#39;</span>].interpolate(method<span class="op">=</span><span class="st">&#39;time&#39;</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/var/folders/6p/ycgkpqkx6rd0xffcbwt9wg8w0000gn/T/ipykernel_25970/1493880258.py:36: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  missing_dates[&#39;Price_exxon&#39;] = np.nan
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="12">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Oil and  US Treasury</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Load bond data</span></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>bond <span class="op">=</span> pd.read_csv(<span class="st">&#39;data/bond.csv&#39;</span>)</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert &#39;Date&#39; column to datetime data type</span></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>bond[<span class="st">&#39;Date&#39;</span>] <span class="op">=</span> pd.to_datetime(bond[<span class="st">&#39;Date&#39;</span>])</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop unnecessary columns from bond DataFrame</span></span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>bond <span class="op">=</span> bond[[<span class="st">&#39;Date&#39;</span>, <span class="st">&#39;Price&#39;</span>]]</span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Set &#39;Date&#39; column as the index for bond DataFrame</span></span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>bond.set_index(<span class="st">&#39;Date&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort the &#39;Date&#39; index in the bond DataFrame</span></span>
+<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a>bond.sort_index(inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Load oil data</span></span>
+<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a>oil <span class="op">=</span> pd.read_csv(<span class="st">&quot;data/oil_data.csv&quot;</span>)  <span class="co"># Replace with the correct file name</span></span>
+<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a>oil[<span class="st">&#39;Date&#39;</span>] <span class="op">=</span> pd.to_datetime(oil[<span class="st">&#39;Date&#39;</span>])</span>
+<span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Set &#39;Date&#39; column as the index for oil DataFrame</span></span>
+<span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a>oil.set_index(<span class="st">&#39;Date&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb16-24"><a href="#cb16-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-25"><a href="#cb16-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort the &#39;Date&#39; index in the oil DataFrame</span></span>
+<span id="cb16-26"><a href="#cb16-26" aria-hidden="true" tabindex="-1"></a>oil.sort_index(inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb16-27"><a href="#cb16-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-28"><a href="#cb16-28" aria-hidden="true" tabindex="-1"></a><span class="co"># Remove rows in &#39;bond&#39; that do not have corresponding dates in &#39;oil&#39;</span></span>
+<span id="cb16-29"><a href="#cb16-29" aria-hidden="true" tabindex="-1"></a>bond <span class="op">=</span> bond[bond.index.isin(oil.index)]</span>
+<span id="cb16-30"><a href="#cb16-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-31"><a href="#cb16-31" aria-hidden="true" tabindex="-1"></a><span class="co"># Merge bond data into oil, keeping the chronological order</span></span>
+<span id="cb16-32"><a href="#cb16-32" aria-hidden="true" tabindex="-1"></a>merged_data <span class="op">=</span> pd.merge_asof(bond, oil, left_index<span class="op">=</span><span class="va">True</span>, right_index<span class="op">=</span><span class="va">True</span>, direction<span class="op">=</span><span class="st">&#39;forward&#39;</span>, suffixes<span class="op">=</span>(<span class="st">&#39;_bond&#39;</span>, <span class="st">&#39;_oil&#39;</span>))</span>
+<span id="cb16-33"><a href="#cb16-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-34"><a href="#cb16-34" aria-hidden="true" tabindex="-1"></a><span class="co"># Add rows with dates from &#39;oil&#39; that are not in &#39;bond&#39; and set &#39;Price_bond&#39; to NaN</span></span>
+<span id="cb16-35"><a href="#cb16-35" aria-hidden="true" tabindex="-1"></a>missing_dates <span class="op">=</span> oil[<span class="op">~</span>oil.index.isin(bond.index)]</span>
+<span id="cb16-36"><a href="#cb16-36" aria-hidden="true" tabindex="-1"></a>missing_dates[<span class="st">&#39;Price_bond&#39;</span>] <span class="op">=</span> np.nan</span>
+<span id="cb16-37"><a href="#cb16-37" aria-hidden="true" tabindex="-1"></a>merged_data <span class="op">=</span> pd.concat([merged_data, missing_dates], ignore_index<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb16-38"><a href="#cb16-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-39"><a href="#cb16-39" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort the DataFrame by &#39;Date&#39; after concatenation</span></span>
+<span id="cb16-40"><a href="#cb16-40" aria-hidden="true" tabindex="-1"></a>merged_data.sort_index(inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb16-41"><a href="#cb16-41" aria-hidden="true" tabindex="-1"></a>merged_data[<span class="st">&#39;Price_bond&#39;</span>] <span class="op">=</span> merged_data[<span class="st">&#39;Price_bond&#39;</span>].replace(<span class="st">&#39;,&#39;</span>, <span class="st">&#39;&#39;</span>, regex<span class="op">=</span><span class="va">True</span>) <span class="co"># STRIPS comams for float conversion</span></span>
+<span id="cb16-42"><a href="#cb16-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-43"><a href="#cb16-43" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert &#39;Price_bond&#39; and &#39;Price_oil&#39; columns to numeric type</span></span>
+<span id="cb16-44"><a href="#cb16-44" aria-hidden="true" tabindex="-1"></a>merged_data[<span class="st">&#39;Price_bond&#39;</span>] <span class="op">=</span> pd.to_numeric(merged_data[<span class="st">&#39;Price_bond&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb16-45"><a href="#cb16-45" aria-hidden="true" tabindex="-1"></a>merged_data[<span class="st">&#39;Price_oil&#39;</span>] <span class="op">=</span> pd.to_numeric(merged_data[<span class="st">&#39;Price_oil&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb16-46"><a href="#cb16-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-47"><a href="#cb16-47" aria-hidden="true" tabindex="-1"></a><span class="co"># Time series interpolation of missing values in the &#39;Price_bond&#39; column</span></span>
+<span id="cb16-48"><a href="#cb16-48" aria-hidden="true" tabindex="-1"></a>merged_data[<span class="st">&#39;Price_bond&#39;</span>] <span class="op">=</span> merged_data[<span class="st">&#39;Price_bond&#39;</span>].interpolate(method<span class="op">=</span><span class="st">&#39;time&#39;</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/var/folders/6p/ycgkpqkx6rd0xffcbwt9wg8w0000gn/T/ipykernel_25970/1634552232.py:36: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  missing_dates[&#39;Price_bond&#39;] = np.nan
+</code></pre>
+</div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Data cleaning and interpolation sections can be found below this code box</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="co"># 8 macroeconomic factors analyzed (US Bonds, US Dollar, US Economy, Gold, Euro, Japanese Yen, Natural Gas, Shale/Alternative Oil)</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>oil <span class="op">=</span> pd.read_csv(<span class="st">&#39;interpolated_data/oil.csv&#39;</span>) <span class="co"># Crude Oil (WTI)</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>bond <span class="op">=</span> pd.read_csv(<span class="st">&#39;interpolated_data/bond_interpolated.csv&#39;</span>) <span class="co"># US Bonds</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>dollar <span class="op">=</span> pd.read_csv(<span class="st">&#39;interpolated_data/dollar_interpolated.csv&#39;</span>) <span class="co"># US Dollar</span></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>euro <span class="op">=</span> pd.read_csv(<span class="st">&#39;interpolated_data/euro_interpolated.csv&#39;</span>) <span class="co"># Euro</span></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>exxon <span class="op">=</span> pd.read_csv(<span class="st">&#39;interpolated_data/exxon_interpolated.csv&#39;</span>) <span class="co"># Shale/Alternative Oil</span></span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>gold <span class="op">=</span> pd.read_csv(<span class="st">&#39;interpolated_data/gold_interpolated.csv&#39;</span>) <span class="co"># Gold</span></span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>yen <span class="op">=</span> pd.read_csv(<span class="st">&#39;interpolated_data/japan_interpolated.csv&#39;</span>) <span class="co"># Japanese Yen</span></span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>ng <span class="op">=</span> pd.read_csv(<span class="st">&#39;interpolated_data/ng_interpolated.csv&#39;</span>) <span class="co"># Natural Gas</span></span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a>spy <span class="op">=</span> pd.read_csv(<span class="st">&#39;interpolated_data/spy_interpolated.csv&#39;</span>) <span class="co"># US Economy</span></span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Concatenate DataFrames along the columns</span></span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a>merged_data <span class="op">=</span> pd.concat([oil[<span class="st">&#39;Oil&#39;</span>], </span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a>                         bond[<span class="st">&#39;US Bonds&#39;</span>], </span>
+<span id="cb18-17"><a href="#cb18-17" aria-hidden="true" tabindex="-1"></a>                         dollar[<span class="st">&#39;US Dollar&#39;</span>], </span>
+<span id="cb18-18"><a href="#cb18-18" aria-hidden="true" tabindex="-1"></a>                         euro[<span class="st">&#39;Euro&#39;</span>], </span>
+<span id="cb18-19"><a href="#cb18-19" aria-hidden="true" tabindex="-1"></a>                         exxon[<span class="st">&#39;Alternative Oil (Exxon)&#39;</span>], </span>
+<span id="cb18-20"><a href="#cb18-20" aria-hidden="true" tabindex="-1"></a>                         gold[<span class="st">&#39;Gold&#39;</span>], </span>
+<span id="cb18-21"><a href="#cb18-21" aria-hidden="true" tabindex="-1"></a>                         yen[<span class="st">&#39;Japanese Yen&#39;</span>], </span>
+<span id="cb18-22"><a href="#cb18-22" aria-hidden="true" tabindex="-1"></a>                         ng[<span class="st">&#39;Natural Gas&#39;</span>], </span>
+<span id="cb18-23"><a href="#cb18-23" aria-hidden="true" tabindex="-1"></a>                         spy[<span class="st">&#39;US Economy (Spy)&#39;</span>]], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb18-24"><a href="#cb18-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-25"><a href="#cb18-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-26"><a href="#cb18-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-27"><a href="#cb18-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Pearson correlation test for oil and bonds</span></span>
+<span id="cb18-28"><a href="#cb18-28" aria-hidden="true" tabindex="-1"></a>corr, p <span class="op">=</span> pearsonr(oil[<span class="st">&#39;Oil&#39;</span>],  bond[<span class="st">&#39;US Bonds&#39;</span>])</span>
+<span id="cb18-29"><a href="#cb18-29" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb18-30"><a href="#cb18-30" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Pearson correlation coefficient:&quot;</span>, corr)</span>
+<span id="cb18-31"><a href="#cb18-31" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;P-value: </span><span class="sc">{</span>p<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb18-32"><a href="#cb18-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-33"><a href="#cb18-33" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">15</span>))</span>
+<span id="cb18-34"><a href="#cb18-34" aria-hidden="true" tabindex="-1"></a>plt.scatter(oil[<span class="st">&#39;Oil&#39;</span>], bond[<span class="st">&#39;US Bonds&#39;</span>], color<span class="op">=</span><span class="st">&#39;blue&#39;</span>, label<span class="op">=</span><span class="st">&#39;data points&#39;</span>)</span>
+<span id="cb18-35"><a href="#cb18-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-36"><a href="#cb18-36" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Oil Prices&#39;</span>)</span>
+<span id="cb18-37"><a href="#cb18-37" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;US Bonds&#39;</span>)</span>
+<span id="cb18-38"><a href="#cb18-38" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="ss">f&quot;Oil vs US Bonds</span><span class="ch">\n</span><span class="ss">Pearson r = </span><span class="sc">{</span>corr<span class="sc">}</span><span class="ss">, p-value = </span><span class="sc">{</span>p<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb18-39"><a href="#cb18-39" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb18-40"><a href="#cb18-40" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb18-41"><a href="#cb18-41" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb18-42"><a href="#cb18-42" aria-hidden="true" tabindex="-1"></a><span class="co"># CONCLUSION</span></span>
+<span id="cb18-43"><a href="#cb18-43" aria-hidden="true" tabindex="-1"></a><span class="co"># Since we have a  Person correlation of approximately -0.6 and a p-value of 0, we can conclude that there is a moderate negative correlation between oil prices and US bonds.</span></span>
+<span id="cb18-44"><a href="#cb18-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-45"><a href="#cb18-45" aria-hidden="true" tabindex="-1"></a><span class="co"># Spearman&#39;s correlation test for oul and US dollar</span></span>
+<span id="cb18-46"><a href="#cb18-46" aria-hidden="true" tabindex="-1"></a>corr, p <span class="op">=</span> spearmanr(oil[<span class="st">&#39;Oil&#39;</span>], dollar[<span class="st">&#39;US Dollar&#39;</span>])</span>
+<span id="cb18-47"><a href="#cb18-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-48"><a href="#cb18-48" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Spearman correlation coefficient:&quot;</span>, corr)</span>
+<span id="cb18-49"><a href="#cb18-49" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;P-value: </span><span class="sc">{</span>p<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb18-50"><a href="#cb18-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-51"><a href="#cb18-51" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">15</span>))</span>
+<span id="cb18-52"><a href="#cb18-52" aria-hidden="true" tabindex="-1"></a>plt.scatter(oil[<span class="st">&#39;Oil&#39;</span>], dollar[<span class="st">&#39;US Dollar&#39;</span>], color<span class="op">=</span><span class="st">&#39;blue&#39;</span>, label<span class="op">=</span><span class="st">&#39;data points&#39;</span>)</span>
+<span id="cb18-53"><a href="#cb18-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-54"><a href="#cb18-54" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Oil Prices&#39;</span>)</span>
+<span id="cb18-55"><a href="#cb18-55" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;US Dollar&#39;</span>)</span>
+<span id="cb18-56"><a href="#cb18-56" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="ss">f&quot;Oil vs US Dollar</span><span class="ch">\n</span><span class="ss">Spearman r = </span><span class="sc">{</span>corr<span class="sc">}</span><span class="ss">, p-value = </span><span class="sc">{</span>p<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb18-57"><a href="#cb18-57" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb18-58"><a href="#cb18-58" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb18-59"><a href="#cb18-59" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb18-60"><a href="#cb18-60" aria-hidden="true" tabindex="-1"></a><span class="co"># CONCLUSION</span></span>
+<span id="cb18-61"><a href="#cb18-61" aria-hidden="true" tabindex="-1"></a><span class="co"># Since we have a Spearman correlation of approximately -0.417 and a p-value of 0, we can conclude that there is a negative correlation between oil prices and US bonds.</span></span>
+<span id="cb18-62"><a href="#cb18-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-63"><a href="#cb18-63" aria-hidden="true" tabindex="-1"></a><span class="co"># Pearson correlation test for oil and alternative oil </span></span>
+<span id="cb18-64"><a href="#cb18-64" aria-hidden="true" tabindex="-1"></a>corr, p <span class="op">=</span> pearsonr(oil[<span class="st">&#39;Oil&#39;</span>],  exxon[<span class="st">&#39;Alternative Oil (Exxon)&#39;</span>])</span>
+<span id="cb18-65"><a href="#cb18-65" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb18-66"><a href="#cb18-66" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Pearson correlation coefficient:&quot;</span>, corr)</span>
+<span id="cb18-67"><a href="#cb18-67" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;P-value: </span><span class="sc">{</span>p<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb18-68"><a href="#cb18-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-69"><a href="#cb18-69" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">15</span>))</span>
+<span id="cb18-70"><a href="#cb18-70" aria-hidden="true" tabindex="-1"></a>plt.scatter(oil[<span class="st">&#39;Oil&#39;</span>], exxon[<span class="st">&#39;Alternative Oil (Exxon)&#39;</span>], color<span class="op">=</span><span class="st">&#39;blue&#39;</span>, label<span class="op">=</span><span class="st">&#39;data points&#39;</span>)</span>
+<span id="cb18-71"><a href="#cb18-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-72"><a href="#cb18-72" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Oil Prices&#39;</span>)</span>
+<span id="cb18-73"><a href="#cb18-73" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Alternative Oil (Exxon)&#39;</span>)</span>
+<span id="cb18-74"><a href="#cb18-74" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="ss">f&quot;Oil vs Alternative Oil</span><span class="ch">\n</span><span class="ss">Pearson r = </span><span class="sc">{</span>corr<span class="sc">}</span><span class="ss">, p-value = </span><span class="sc">{</span>p<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb18-75"><a href="#cb18-75" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb18-76"><a href="#cb18-76" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb18-77"><a href="#cb18-77" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb18-78"><a href="#cb18-78" aria-hidden="true" tabindex="-1"></a><span class="co"># CONCLUSION</span></span>
+<span id="cb18-79"><a href="#cb18-79" aria-hidden="true" tabindex="-1"></a><span class="co"># Since we have a Person correlation of approximately 0.837 and a p-value of 0, we can conclude that there is a significant postive correlation between oil prices and alternative oils such as shale.</span></span>
+<span id="cb18-80"><a href="#cb18-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-81"><a href="#cb18-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-82"><a href="#cb18-82" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate the correlation matrix</span></span>
+<span id="cb18-83"><a href="#cb18-83" aria-hidden="true" tabindex="-1"></a>correlation_matrix <span class="op">=</span> merged_data.corr()</span>
+<span id="cb18-84"><a href="#cb18-84" aria-hidden="true" tabindex="-1"></a><span class="co"># correlation matrix with a heatmap </span></span>
+<span id="cb18-85"><a href="#cb18-85" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">8</span>))</span>
+<span id="cb18-86"><a href="#cb18-86" aria-hidden="true" tabindex="-1"></a>sns.heatmap(correlation_matrix, annot<span class="op">=</span><span class="va">True</span>, cmap<span class="op">=</span><span class="st">&#39;coolwarm&#39;</span>, fmt<span class="op">=</span><span class="st">&quot;.2f&quot;</span>, vmin<span class="op">=-</span><span class="dv">1</span>, vmax<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb18-87"><a href="#cb18-87" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Correlation Matrix of Macroeconomic Factors&#39;</span>)</span>
+<span id="cb18-88"><a href="#cb18-88" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb18-89"><a href="#cb18-89" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-90"><a href="#cb18-90" aria-hidden="true" tabindex="-1"></a><span class="co">#  top row of the correlation matrix for ease of understanding </span></span>
+<span id="cb18-91"><a href="#cb18-91" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">2</span>))</span>
+<span id="cb18-92"><a href="#cb18-92" aria-hidden="true" tabindex="-1"></a>sns.heatmap(correlation_matrix.iloc[:<span class="dv">1</span>, :], annot<span class="op">=</span><span class="va">True</span>, cmap<span class="op">=</span><span class="st">&#39;coolwarm&#39;</span>, fmt<span class="op">=</span><span class="st">&quot;.2f&quot;</span>, vmin<span class="op">=-</span><span class="dv">1</span>, vmax<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb18-93"><a href="#cb18-93" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Top Row of Correlation Matrix of Macroeonomic Factors vs Oil Specifically&#39;</span>)</span>
+<span id="cb18-94"><a href="#cb18-94" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb18-95"><a href="#cb18-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-96"><a href="#cb18-96" aria-hidden="true" tabindex="-1"></a><span class="co"># Conclusion</span></span>
+<span id="cb18-97"><a href="#cb18-97" aria-hidden="true" tabindex="-1"></a><span class="co"># From the top‐row correlations displayed, Oil has its highest positive relationship with Exxon (around +0.84) and a moderately strong positive relationship with Gold (around +0.72). In contrast, US Bonds show a notably strong negative correlation with Oil (around −0.60), and the US Dollar is also negatively correlated (around −0.46). Meanwhile, the Euro exhibits almost no linear relationship with Oil (near zero). </span></span>
+<span id="cb18-98"><a href="#cb18-98" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-99"><a href="#cb18-99" aria-hidden="true" tabindex="-1"></a><span class="co"># Elstic Net Regression Model using the eight macroeconomic factors (The model combines both lasso and ridge regression)</span></span>
+<span id="cb18-100"><a href="#cb18-100" aria-hidden="true" tabindex="-1"></a><span class="co"># Select the features (X) and target variable (y)</span></span>
+<span id="cb18-101"><a href="#cb18-101" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> merged_data.drop([<span class="st">&#39;Oil&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>)  <span class="co"># Assuming &#39;Date&#39; is not a predictor</span></span>
+<span id="cb18-102"><a href="#cb18-102" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> merged_data[<span class="st">&#39;Oil&#39;</span>]</span>
+<span id="cb18-103"><a href="#cb18-103" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-104"><a href="#cb18-104" aria-hidden="true" tabindex="-1"></a><span class="co"># Split the data into training and testing sets</span></span>
+<span id="cb18-105"><a href="#cb18-105" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb18-106"><a href="#cb18-106" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-107"><a href="#cb18-107" aria-hidden="true" tabindex="-1"></a><span class="co"># Standardize the features</span></span>
+<span id="cb18-108"><a href="#cb18-108" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> StandardScaler()</span>
+<span id="cb18-109"><a href="#cb18-109" aria-hidden="true" tabindex="-1"></a>X_train_scaled <span class="op">=</span> scaler.fit_transform(X_train)</span>
+<span id="cb18-110"><a href="#cb18-110" aria-hidden="true" tabindex="-1"></a>X_test_scaled <span class="op">=</span> scaler.transform(X_test)</span>
+<span id="cb18-111"><a href="#cb18-111" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-112"><a href="#cb18-112" aria-hidden="true" tabindex="-1"></a><span class="co"># Create and train the Elastic Net model</span></span>
+<span id="cb18-113"><a href="#cb18-113" aria-hidden="true" tabindex="-1"></a>elastic_net <span class="op">=</span> ElasticNet(alpha<span class="op">=</span><span class="fl">0.1</span>, l1_ratio<span class="op">=</span><span class="fl">0.7</span>)  <span class="co"># Adjust alpha and l1_ratio as needed for penalties</span></span>
+<span id="cb18-114"><a href="#cb18-114" aria-hidden="true" tabindex="-1"></a>elastic_net.fit(X_train_scaled, y_train)</span>
+<span id="cb18-115"><a href="#cb18-115" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-116"><a href="#cb18-116" aria-hidden="true" tabindex="-1"></a><span class="co"># Make predictions on the test set</span></span>
+<span id="cb18-117"><a href="#cb18-117" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> elastic_net.predict(X_test_scaled)</span>
+<span id="cb18-118"><a href="#cb18-118" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-119"><a href="#cb18-119" aria-hidden="true" tabindex="-1"></a><span class="co"># Sorting the predicted values since the data is time series based</span></span>
+<span id="cb18-120"><a href="#cb18-120" aria-hidden="true" tabindex="-1"></a>sorted_indices <span class="op">=</span> X_test.index.argsort()</span>
+<span id="cb18-121"><a href="#cb18-121" aria-hidden="true" tabindex="-1"></a>X_test_sorted <span class="op">=</span> X_test.iloc[sorted_indices]</span>
+<span id="cb18-122"><a href="#cb18-122" aria-hidden="true" tabindex="-1"></a>y_pred_sorted <span class="op">=</span> y_pred[sorted_indices]</span>
+<span id="cb18-123"><a href="#cb18-123" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-124"><a href="#cb18-124" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting the predicted oil prices</span></span>
+<span id="cb18-125"><a href="#cb18-125" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">6</span>))</span>
+<span id="cb18-126"><a href="#cb18-126" aria-hidden="true" tabindex="-1"></a>plt.plot(X_test_sorted.index, y_pred_sorted, label<span class="op">=</span><span class="st">&#39;Predicted Oil Prices&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;-&#39;</span>, linewidth<span class="op">=</span><span class="fl">.8</span>, color<span class="op">=</span><span class="st">&#39;red&#39;</span>) </span>
+<span id="cb18-127"><a href="#cb18-127" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-128"><a href="#cb18-128" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting the real oil prices (they were actually negative at some point in April 2020!)</span></span>
+<span id="cb18-129"><a href="#cb18-129" aria-hidden="true" tabindex="-1"></a>plt.plot(merged_data[<span class="st">&#39;Oil&#39;</span>], label<span class="op">=</span><span class="st">&#39;Real Oil Prices&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;-&#39;</span>, linewidth<span class="op">=</span><span class="fl">.8</span>, color<span class="op">=</span><span class="st">&#39;blue&#39;</span>) </span>
+<span id="cb18-130"><a href="#cb18-130" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-131"><a href="#cb18-131" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Real vs Predicted Oil Prices (Elastic Net)&#39;</span>)</span>
+<span id="cb18-132"><a href="#cb18-132" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Tradable Stock Days after 1991-01-01&#39;</span>)</span>
+<span id="cb18-133"><a href="#cb18-133" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Oil Prices&#39;</span>)</span>
+<span id="cb18-134"><a href="#cb18-134" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb18-135"><a href="#cb18-135" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb18-136"><a href="#cb18-136" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-137"><a href="#cb18-137" aria-hidden="true" tabindex="-1"></a><span class="co"># Evaluate the model</span></span>
+<span id="cb18-138"><a href="#cb18-138" aria-hidden="true" tabindex="-1"></a>mse <span class="op">=</span> mean_squared_error(y_test, y_pred)</span>
+<span id="cb18-139"><a href="#cb18-139" aria-hidden="true" tabindex="-1"></a>r2 <span class="op">=</span> r2_score(y_test, y_pred)</span>
+<span id="cb18-140"><a href="#cb18-140" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-141"><a href="#cb18-141" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;Mean Squared Error: </span><span class="sc">{</span>mse<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb18-142"><a href="#cb18-142" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;R-squared: </span><span class="sc">{</span>r2<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb18-143"><a href="#cb18-143" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-144"><a href="#cb18-144" aria-hidden="true" tabindex="-1"></a><span class="co"># Define the time series split across 5 intervals</span></span>
+<span id="cb18-145"><a href="#cb18-145" aria-hidden="true" tabindex="-1"></a>tscv <span class="op">=</span> TimeSeriesSplit(n_splits<span class="op">=</span><span class="dv">5</span>)  <span class="co"># Adjust the number of splits as needed</span></span>
+<span id="cb18-146"><a href="#cb18-146" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-147"><a href="#cb18-147" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize metrics for evaluation</span></span>
+<span id="cb18-148"><a href="#cb18-148" aria-hidden="true" tabindex="-1"></a>all_mse <span class="op">=</span> []</span>
+<span id="cb18-149"><a href="#cb18-149" aria-hidden="true" tabindex="-1"></a>all_r2 <span class="op">=</span> []</span>
+<span id="cb18-150"><a href="#cb18-150" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-151"><a href="#cb18-151" aria-hidden="true" tabindex="-1"></a><span class="co"># Perform time series cross-validation</span></span>
+<span id="cb18-152"><a href="#cb18-152" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> train_index, test_index <span class="kw">in</span> tscv.split(X):</span>
+<span id="cb18-153"><a href="#cb18-153" aria-hidden="true" tabindex="-1"></a>    X_train, X_test <span class="op">=</span> X.iloc[train_index], X.iloc[test_index]</span>
+<span id="cb18-154"><a href="#cb18-154" aria-hidden="true" tabindex="-1"></a>    y_train, y_test <span class="op">=</span> y.iloc[train_index], y.iloc[test_index]</span>
+<span id="cb18-155"><a href="#cb18-155" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-156"><a href="#cb18-156" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Standardize the features using the same scaler from the original model</span></span>
+<span id="cb18-157"><a href="#cb18-157" aria-hidden="true" tabindex="-1"></a>    X_train_scaled <span class="op">=</span> scaler.transform(X_train)</span>
+<span id="cb18-158"><a href="#cb18-158" aria-hidden="true" tabindex="-1"></a>    X_test_scaled <span class="op">=</span> scaler.transform(X_test)</span>
+<span id="cb18-159"><a href="#cb18-159" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-160"><a href="#cb18-160" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Make predictions on the test set</span></span>
+<span id="cb18-161"><a href="#cb18-161" aria-hidden="true" tabindex="-1"></a>    y_pred <span class="op">=</span> elastic_net.predict(X_test_scaled)</span>
+<span id="cb18-162"><a href="#cb18-162" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-163"><a href="#cb18-163" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Evaluate the model and store metrics</span></span>
+<span id="cb18-164"><a href="#cb18-164" aria-hidden="true" tabindex="-1"></a>    mse <span class="op">=</span> mean_squared_error(y_test, y_pred)</span>
+<span id="cb18-165"><a href="#cb18-165" aria-hidden="true" tabindex="-1"></a>    r2 <span class="op">=</span> r2_score(y_test, y_pred)</span>
+<span id="cb18-166"><a href="#cb18-166" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-167"><a href="#cb18-167" aria-hidden="true" tabindex="-1"></a>    all_mse.append(mse)</span>
+<span id="cb18-168"><a href="#cb18-168" aria-hidden="true" tabindex="-1"></a>    all_r2.append(r2)</span>
+<span id="cb18-169"><a href="#cb18-169" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-170"><a href="#cb18-170" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;Time Series Cross-Val Mean Squared Error: </span><span class="sc">{</span>all_mse<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb18-171"><a href="#cb18-171" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;Time Series Cross-Val R-squared: </span><span class="sc">{</span>all_r2<span class="sc">}</span><span class="ss">&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Pearson correlation coefficient: -0.5985852491476537
+P-value: 0.0
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_9c8f78fb6174485589980ed51aebfd2c/72722fb594ea94f0c28c1f75f5c72cd5c23b4920.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Spearman correlation coefficient: -0.41738475670874364
+P-value: 0.0
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_9c8f78fb6174485589980ed51aebfd2c/b2aef1434a39c6bf2aaaa9535c25755f44b0cbd0.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Pearson correlation coefficient: 0.8371462583248163
+P-value: 0.0
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_9c8f78fb6174485589980ed51aebfd2c/c3166cfcf3b840d3f545ab89993e72aebf7c501e.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_9c8f78fb6174485589980ed51aebfd2c/29f6390345476f74764af7807469736e60832626.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_9c8f78fb6174485589980ed51aebfd2c/9a1cd944cf14466970e76a26cf4cdf4a1bf8e0ee.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_9c8f78fb6174485589980ed51aebfd2c/c1929af3ff85b3a9cc8fc1cd3d48f1fc85dd6a0a.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Mean Squared Error: 87.7050713955192
+R-squared: 0.9002158537261145
+Time Series Cross-Val Mean Squared Error: [34.36423578611308, 81.43223923275082, 132.0438491755038, 156.22180839839578, 98.90077627968168]
+Time Series Cross-Val R-squared: [0.04362481848806987, 0.6915861442403776, 0.654891564646737, 0.7151475604322173, 0.756100816830216]
+</code></pre>
+</div>
+</div>
+</body>
+</html>
